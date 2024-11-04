@@ -6,6 +6,8 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+/** Header **/
 .header{
     background-color: #1f2937;
     color: #f9faf8;
@@ -26,4 +28,43 @@ body{
     color: #e5e7eb;
     text-decoration: none;
     flex: 1;
+}
+/*** First Section ***/
+.section-one{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+.content-one{
+    width: 525px;
+    height: auto;
+    padding: 10px;
+}
+.main-title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.main-paragraph{
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 375px;
+}
+.main-img{
+    width: 400px;
+    height: auto;
+    flex-shrink: 1;
+}
+.main-img-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sign-up{
+    background-color: #2882f6;
+    color: #e5e7eb;
+    width: 80px;
+    padding: 4px;
+    border-radius: 15%;
 }
