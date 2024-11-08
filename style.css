@@ -6,7 +6,9 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.section{
+    flex: 1 1 400px;
+}
 /** Header **/
 .header{
     background-color: #1f2937;
@@ -99,4 +101,23 @@ body{
 .title-two{
     font-size: 36px;
     font-weight: 900;
+}
+/** Section Three **/
+.section-three{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    width: 700px;
+}
+.auther{
+    font-size: 26px;
+    font-weight: 600;
+    width: 700px;
+    text-align: right;
 }
