@@ -67,9 +67,12 @@ body{
 .sign-up{
     background-color: #2882f6;
     color: #e5e7eb;
-    width: 80px;
+    width: 200px;
+    height: 80px;
     padding: 4px;
     border-radius: 15%;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 /** Section 2 **/
