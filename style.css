@@ -24,12 +24,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 12px;
+    gap: 30px;
 }
 .hl{
     color: #e5e7eb;
     text-decoration: none;
     flex: 1;
+    font-size: 30px;
 }
 /*** First Section ***/
 .section-one{
